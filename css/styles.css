@@ -1,0 +1,28 @@
+.gallery {
+    margin: 0 auto;
+    display: grid;
+    width: 900px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    padding: none;
+    margin-bottom: 25px;
+}
+
+.searchbar {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+input[type="search" i] {
+    font-size: 16px;
+    border: 2px solid lightgrey;
+    margin: 0 auto;
+    width: 550px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
